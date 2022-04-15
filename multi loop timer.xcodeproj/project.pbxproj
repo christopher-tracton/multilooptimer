@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C35A062809149D00305056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A052809149D00305056 /* AppDelegate.swift */; };
+		B2C35A082809149D00305056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A072809149D00305056 /* SceneDelegate.swift */; };
+		B2C35A0A2809149D00305056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A092809149D00305056 /* ViewController.swift */; };
+		B2C35A0D2809149D00305056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A0B2809149D00305056 /* Main.storyboard */; };
+		B2C35A0F2809149E00305056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A0E2809149E00305056 /* Assets.xcassets */; };
+		B2C35A122809149E00305056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A102809149E00305056 /* LaunchScreen.storyboard */; };
+		B2C35A172809149E00305056 /* multi loop timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B2C35A162809149E00305056 /* multi loop timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2C35A1D2809149E00305056 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A1B2809149E00305056 /* Interface.storyboard */; };
+		B2C35A1F2809149F00305056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A1E2809149F00305056 /* Assets.xcassets */; };
+		B2C35A252809149F00305056 /* multi loop timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2C35A242809149F00305056 /* multi loop timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2C35A2A2809149F00305056 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A292809149F00305056 /* InterfaceController.swift */; };
+		B2C35A2C2809149F00305056 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A2B2809149F00305056 /* ExtensionDelegate.swift */; };
+		B2C35A2E2809149F00305056 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A2D2809149F00305056 /* NotificationController.swift */; };
+		B2C35A302809149F00305056 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A2F2809149F00305056 /* ComplicationController.swift */; };
+		B2C35A32280914A000305056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A31280914A000305056 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C35A182809149E00305056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C359FA2809149C00305056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C35A152809149E00305056;
+			remoteInfo = "multi loop timer WatchKit App";
+		};
+		B2C35A262809149F00305056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C359FA2809149C00305056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C35A232809149F00305056;
+			remoteInfo = "multi loop timer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2C35A3A280914A000305056 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B2C35A252809149F00305056 /* multi loop timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C35A3E280914A000305056 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B2C35A172809149E00305056 /* multi loop timer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2C35A022809149D00305056 /* multi loop timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multi loop timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C35A052809149D00305056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C35A072809149D00305056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2C35A092809149D00305056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C35A0C2809149D00305056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C35A0E2809149E00305056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C35A112809149E00305056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C35A132809149E00305056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C35A162809149E00305056 /* multi loop timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multi loop timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C35A1C2809149E00305056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B2C35A1E2809149F00305056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C35A242809149F00305056 /* multi loop timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "multi loop timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C35A292809149F00305056 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B2C35A2B2809149F00305056 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B2C35A2D2809149F00305056 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B2C35A2F2809149F00305056 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		B2C35A31280914A000305056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C35A33280914A000305056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C35A34280914A000305056 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C359FF2809149D00305056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C35A212809149F00305056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C359F92809149C00305056 = {
+			isa = PBXGroup;
+			children = (
+				B2C35A042809149D00305056 /* multi loop timer */,
+				B2C35A1A2809149E00305056 /* multi loop timer WatchKit App */,
+				B2C35A282809149F00305056 /* multi loop timer WatchKit Extension */,
+				B2C35A032809149D00305056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C35A032809149D00305056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C35A022809149D00305056 /* multi loop timer.app */,
+				B2C35A162809149E00305056 /* multi loop timer WatchKit App.app */,
+				B2C35A242809149F00305056 /* multi loop timer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C35A042809149D00305056 /* multi loop timer */ = {
+			isa = PBXGroup;
+			children = (
+				B2C35A052809149D00305056 /* AppDelegate.swift */,
+				B2C35A072809149D00305056 /* SceneDelegate.swift */,
+				B2C35A092809149D00305056 /* ViewController.swift */,
+				B2C35A0B2809149D00305056 /* Main.storyboard */,
+				B2C35A0E2809149E00305056 /* Assets.xcassets */,
+				B2C35A102809149E00305056 /* LaunchScreen.storyboard */,
+				B2C35A132809149E00305056 /* Info.plist */,
+			);
+			path = "multi loop timer";
+			sourceTree = "<group>";
+		};
+		B2C35A1A2809149E00305056 /* multi loop timer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B2C35A1B2809149E00305056 /* Interface.storyboard */,
+				B2C35A1E2809149F00305056 /* Assets.xcassets */,
+			);
+			path = "multi loop timer WatchKit App";
+			sourceTree = "<group>";
+		};
+		B2C35A282809149F00305056 /* multi loop timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2C35A292809149F00305056 /* InterfaceController.swift */,
+				B2C35A2B2809149F00305056 /* ExtensionDelegate.swift */,
+				B2C35A2D2809149F00305056 /* NotificationController.swift */,
+				B2C35A2F2809149F00305056 /* ComplicationController.swift */,
+				B2C35A31280914A000305056 /* Assets.xcassets */,
+				B2C35A33280914A000305056 /* Info.plist */,
+				B2C35A34280914A000305056 /* PushNotificationPayload.apns */,
+			);
+			path = "multi loop timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C35A012809149D00305056 /* multi loop timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C35A3F280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer" */;
+			buildPhases = (
+				B2C359FE2809149D00305056 /* Sources */,
+				B2C359FF2809149D00305056 /* Frameworks */,
+				B2C35A002809149D00305056 /* Resources */,
+				B2C35A3E280914A000305056 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C35A192809149E00305056 /* PBXTargetDependency */,
+			);
+			name = "multi loop timer";
+			productName = "multi loop timer";
+			productReference = B2C35A022809149D00305056 /* multi loop timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C35A152809149E00305056 /* multi loop timer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C35A3B280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer WatchKit App" */;
+			buildPhases = (
+				B2C35A142809149E00305056 /* Resources */,
+				B2C35A3A280914A000305056 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C35A272809149F00305056 /* PBXTargetDependency */,
+			);
+			name = "multi loop timer WatchKit App";
+			productName = "multi loop timer WatchKit App";
+			productReference = B2C35A162809149E00305056 /* multi loop timer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B2C35A232809149F00305056 /* multi loop timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C35A37280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer WatchKit Extension" */;
+			buildPhases = (
+				B2C35A202809149F00305056 /* Sources */,
+				B2C35A212809149F00305056 /* Frameworks */,
+				B2C35A222809149F00305056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multi loop timer WatchKit Extension";
+			productName = "multi loop timer WatchKit Extension";
+			productReference = B2C35A242809149F00305056 /* multi loop timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C359FA2809149C00305056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B2C35A012809149D00305056 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B2C35A152809149E00305056 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B2C35A232809149F00305056 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = B2C359FD2809149C00305056 /* Build configuration list for PBXProject "multi loop timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C359F92809149C00305056;
+			productRefGroup = B2C35A032809149D00305056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C35A012809149D00305056 /* multi loop timer */,
+				B2C35A152809149E00305056 /* multi loop timer WatchKit App */,
+				B2C35A232809149F00305056 /* multi loop timer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C35A002809149D00305056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C35A122809149E00305056 /* LaunchScreen.storyboard in Resources */,
+				B2C35A0F2809149E00305056 /* Assets.xcassets in Resources */,
+				B2C35A0D2809149D00305056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C35A142809149E00305056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C35A1F2809149F00305056 /* Assets.xcassets in Resources */,
+				B2C35A1D2809149E00305056 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C35A222809149F00305056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C35A32280914A000305056 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C359FE2809149D00305056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C35A0A2809149D00305056 /* ViewController.swift in Sources */,
+				B2C35A062809149D00305056 /* AppDelegate.swift in Sources */,
+				B2C35A082809149D00305056 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C35A202809149F00305056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C35A2E2809149F00305056 /* NotificationController.swift in Sources */,
+				B2C35A302809149F00305056 /* ComplicationController.swift in Sources */,
+				B2C35A2C2809149F00305056 /* ExtensionDelegate.swift in Sources */,
+				B2C35A2A2809149F00305056 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C35A192809149E00305056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C35A152809149E00305056 /* multi loop timer WatchKit App */;
+			targetProxy = B2C35A182809149E00305056 /* PBXContainerItemProxy */;
+		};
+		B2C35A272809149F00305056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C35A232809149F00305056 /* multi loop timer WatchKit Extension */;
+			targetProxy = B2C35A262809149F00305056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2C35A0B2809149D00305056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C35A0C2809149D00305056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C35A102809149E00305056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C35A112809149E00305056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C35A1B2809149E00305056 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C35A1C2809149E00305056 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C35A35280914A000305056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C35A36280914A000305056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B2C35A38280914A000305056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multi loop timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "multi loop timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		B2C35A39280914A000305056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multi loop timer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "multi loop timer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		B2C35A3C280914A000305056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = multi_loop_timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "multi loop timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.christophertracton.multi-loop-timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		B2C35A3D280914A000305056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = multi_loop_timer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "multi loop timer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.christophertracton.multi-loop-timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		B2C35A40280914A000305056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multi loop timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C35A41280914A000305056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6KP3DU6GX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "multi loop timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophertracton.multi-loop-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C359FD2809149C00305056 /* Build configuration list for PBXProject "multi loop timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C35A35280914A000305056 /* Debug */,
+				B2C35A36280914A000305056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C35A37280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C35A38280914A000305056 /* Debug */,
+				B2C35A39280914A000305056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C35A3B280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C35A3C280914A000305056 /* Debug */,
+				B2C35A3D280914A000305056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C35A3F280914A000305056 /* Build configuration list for PBXNativeTarget "multi loop timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C35A40280914A000305056 /* Debug */,
+				B2C35A41280914A000305056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C359FA2809149C00305056 /* Project object */;
+}
