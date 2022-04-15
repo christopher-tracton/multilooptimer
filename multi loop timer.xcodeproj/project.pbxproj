@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26427A5280924AD0024C402 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26427A4280924AD0024C402 /* timerView.swift */; };
 		B2C35A062809149D00305056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A052809149D00305056 /* AppDelegate.swift */; };
 		B2C35A082809149D00305056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A072809149D00305056 /* SceneDelegate.swift */; };
-		B2C35A0A2809149D00305056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A092809149D00305056 /* ViewController.swift */; };
 		B2C35A0D2809149D00305056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A0B2809149D00305056 /* Main.storyboard */; };
 		B2C35A0F2809149E00305056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A0E2809149E00305056 /* Assets.xcassets */; };
 		B2C35A122809149E00305056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A102809149E00305056 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,9 @@
 		B2C35A2E2809149F00305056 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A2D2809149F00305056 /* NotificationController.swift */; };
 		B2C35A302809149F00305056 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A2F2809149F00305056 /* ComplicationController.swift */; };
 		B2C35A32280914A000305056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C35A31280914A000305056 /* Assets.xcassets */; };
+		B2C35A432809157500305056 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A422809157500305056 /* CollectionViewController.swift */; };
+		B2C35A4528091AE000305056 /* loopTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A4428091AE000305056 /* loopTimerView.swift */; };
+		B2C35A4728091B0500305056 /* laundryTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C35A4628091B0500305056 /* laundryTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +70,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B26427A4280924AD0024C402 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
 		B2C35A022809149D00305056 /* multi loop timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multi loop timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C35A052809149D00305056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C35A072809149D00305056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2C35A092809149D00305056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2C35A0C2809149D00305056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2C35A0E2809149E00305056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C35A112809149E00305056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +89,9 @@
 		B2C35A31280914A000305056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C35A33280914A000305056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C35A34280914A000305056 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B2C35A422809157500305056 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B2C35A4428091AE000305056 /* loopTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopTimerView.swift; sourceTree = "<group>"; };
+		B2C35A4628091B0500305056 /* laundryTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laundryTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,13 +135,16 @@
 		B2C35A042809149D00305056 /* multi loop timer */ = {
 			isa = PBXGroup;
 			children = (
+				B2C35A4428091AE000305056 /* loopTimerView.swift */,
 				B2C35A052809149D00305056 /* AppDelegate.swift */,
 				B2C35A072809149D00305056 /* SceneDelegate.swift */,
-				B2C35A092809149D00305056 /* ViewController.swift */,
 				B2C35A0B2809149D00305056 /* Main.storyboard */,
 				B2C35A0E2809149E00305056 /* Assets.xcassets */,
 				B2C35A102809149E00305056 /* LaunchScreen.storyboard */,
 				B2C35A132809149E00305056 /* Info.plist */,
+				B2C35A422809157500305056 /* CollectionViewController.swift */,
+				B2C35A4628091B0500305056 /* laundryTimerView.swift */,
+				B26427A4280924AD0024C402 /* timerView.swift */,
 			);
 			path = "multi loop timer";
 			sourceTree = "<group>";
@@ -295,8 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C35A0A2809149D00305056 /* ViewController.swift in Sources */,
+				B2C35A432809157500305056 /* CollectionViewController.swift in Sources */,
+				B26427A5280924AD0024C402 /* timerView.swift in Sources */,
+				B2C35A4528091AE000305056 /* loopTimerView.swift in Sources */,
 				B2C35A062809149D00305056 /* AppDelegate.swift in Sources */,
+				B2C35A4728091B0500305056 /* laundryTimerView.swift in Sources */,
 				B2C35A082809149D00305056 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
